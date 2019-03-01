@@ -1,10 +1,15 @@
 body {
+	/*margin: auto 0;*/
 	height: 100%;
 	background: linear-gradient(to right, white, black);
 	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 1cm;
 	color: white;
+	/*transform: translate(0%, 80%);*/
+}
+
+.main {
 	transform: translate(0%, 80%);
 }
 
@@ -24,15 +29,15 @@ input {
 	outline: none;
 }
 
-/*#clickcopy1 {
-	height: 100%;
-	width: 20%;
+#clickcopy1 {
+	height: 90%;
+	width: 40%;
 	position: absolute;
 }
 
 #clickcopy2 {
-	height: 100%;
-	width: 20%;
+	height: 90%;
+	width: 40%;
 	right: 0%;
 	position: absolute;
-}*/
+}
