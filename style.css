@@ -23,3 +23,18 @@ input {
 	border-color: white;
 	outline: none;
 }
+
+.clickcopy1 {
+	/*visibility: hidden;*/
+	height: 100%;
+	width: 20%;
+	position: absolute;
+}
+
+.clickcopy2 {
+	/*visibility: hidden;*/
+	height: 100%;
+	width: 20%;
+	right: 0%;
+	position: absolute;
+}
