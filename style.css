@@ -24,17 +24,15 @@ input {
 	outline: none;
 }
 
-.clickcopy1 {
-	/*visibility: hidden;*/
+/*#clickcopy1 {
 	height: 100%;
 	width: 20%;
 	position: absolute;
 }
 
-.clickcopy2 {
-	/*visibility: hidden;*/
+#clickcopy2 {
 	height: 100%;
 	width: 20%;
 	right: 0%;
 	position: absolute;
-}
+}*/

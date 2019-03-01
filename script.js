@@ -12,14 +12,18 @@ color1.addEventListener("input", setGradient);
 
 color2.addEventListener("input", setGradient);
 
-// -----Click-to-copy-----
+// -----Clipboard.js click-to-copy-----
 
-const div1 = new ClipboardJS('.clickcopy1');
-
-clipboard.on('success', function(e) {
-	console.log(e);
+const div1 = document.getElementById('clickcopy1');
+const clipboard1 = new ClipboardJS(div1, {
+	text: function() {
+		return document.querySelector('.color1').value;
+	}
 });
 
-clipboard.on('error', function(e) {
-	console.log(e);
+const div2 = document.getElementById('clickcopy2');
+const clipboard2 = new ClipboardJS(div2, {
+	text: function() {
+		return document.querySelector('.color2').value;
+	}
 });
